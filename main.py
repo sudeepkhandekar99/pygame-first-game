@@ -33,7 +33,7 @@ enemyX = []
 enemyY = []
 enemyX_change = []
 enemyY_change = []
-enemy_count = 10
+enemy_count = 20
 for i in range(enemy_count):
     enemyImg.append(pygame.image.load('alien.png'))
     enemyX.append(random.randint(70, 700))
